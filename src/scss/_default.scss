@@ -1,0 +1,29 @@
+*,::after ,::before{
+    padding:0;
+    margin:0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body{
+    background-color: var(--theme-background);
+    color: var(--font-color);
+    font-family: sans-serif,"Segoe UI", Tahoma, Geneva, Verdana;
+    overflow-y: scroll;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-rendering: optimizeSpeed;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style: none;
+}
