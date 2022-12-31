@@ -1,0 +1,24 @@
+.content{
+    padding-top: 0.8rem;
+    width:60vw;
+.content-header{
+    display: flex;
+    gap: 1rem;
+    a{
+    padding: 0.6rem;
+    }
+}
+.content-header a:hover{
+    background: white;
+    color: var(--main-theme);
+    border-radius: var(--radius);
+}
+.content-header a:first-child{
+    font-weight:900;
+    
+}
+.content-header a:not(:first-child){
+    color: var(--main-5);
+    
+}
+}
