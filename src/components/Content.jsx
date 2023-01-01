@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Articlecomponent from "./Articlecomponent"
+import ArticleSkeleton from './ArticleSkeleton';
 function Content() {
   const[articles,setArticle] = useState(null)
 
@@ -69,6 +70,12 @@ function Content() {
         articles && articles.map((article, id)=>{
 return <Articlecomponent key={id} data ={article}/>
         })
+      }
+      { !articles &&
+[1,2,3,4,5].map(()=>{
+  return <ArticleSkeleton/>
+})
+      
       }
     </div>
     </main>
