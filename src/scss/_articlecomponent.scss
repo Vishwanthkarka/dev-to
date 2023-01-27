@@ -1,5 +1,5 @@
 .post-card{
-    width:52vw;
+    // width:52vw;
     background: white;
     margin:0.4rem;
     border-radius: var(--radius);
@@ -58,7 +58,7 @@ border-top-right-radius: var(--radius);
 .p-tag{
     padding: 0.3rem;
     cursor: pointer;
-   
+    border: 1px solid white;
 
 }
 .p-tag:hover{

@@ -2,14 +2,17 @@
     width:240px;
     padding-left: 1rem;
     padding-top: 1rem;
-   
-   .social-logo{
-   color:var(--main-8);
+   .social-logos{
+margin: 0.9rem 0 0.9rem 0;
+   }
+   .social-logo {
+   color:var(--main-1);
    display: inline-block;
-   padding: 0.9rem;
-:hover{
-    background-color: var(--main-theme-extra-lighter);
-}
+   padding: 0.5rem;
+   .social-logo svg{
+fill: red;
+   }
+
    }
    .heading{
     display: flex;
@@ -26,11 +29,14 @@
         padding: 0.5rem;
         display: inline-block;
         width: 100%;
+        
         border-radius: var(--radius);
 
        }
         :hover{
             background-color: var(--main-theme-extra-lighter);
+            text-decoration: underline;
+            color:var(--main-theme)
         }
     }
    }
@@ -54,6 +60,12 @@
     
     border-radius: var(--radius);
    }
+  
+  
+  .social-logo:hover{
+    border-radius: var(--radius);
+    background-color: var(--main-theme-extra-lighter);
+  }
 
 .mobile-menu{
     width: 18rem;

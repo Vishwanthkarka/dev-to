@@ -44,9 +44,10 @@
       color: var(--main-theme);
       font-size: 0.8rem;
       font-weight: bold;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: transparent;
-      border: 1.5px solid var(--main-theme);
-      padding: 0.7rem;
+      border: 1px solid var(--main-theme);
+      padding: 0.8rem;
       letter-spacing: 0.1rem;
       border-radius: var(--radius);
       text-transform: capitalize;

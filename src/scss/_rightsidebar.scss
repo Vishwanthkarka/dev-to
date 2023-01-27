@@ -1,0 +1,24 @@
+.right-sidebar-contents{
+    width:23vw;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    .right-sidebar-content{
+        background-color:var(--main-0);
+        border-radius: var(--radius);
+    .right-sidebar-heading{
+        display: flex;
+        align-items: center;
+        padding: 0.7rem;
+        border-bottom: 1px solid var(--main-1);
+        h2{
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 0.8rem;
+            color: var(--main-theme);
+            margin-left: auto;
+        }
+    }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Cardcomponent from './Cardcomponent';
 const listings = [
     {
       id: 1,
@@ -87,7 +87,51 @@ const Rightsidebar = () => {
     
     return (
 <>
+<div className='right-sidebar'>
+<div className='right-sidebar-contents'>
+  <section className='right-sidebar-content'>
+    <div className='right-sidebar-heading'>
+<h2>Listings</h2>
+<p>see more</p>
+</div>
+{
+(  <Cardcomponent content={listings} />  )
 
+
+}
+
+  </section>
+</div>
+
+
+<div className='right-sidebar-contents'>
+  <section className='right-sidebar-content'>
+    <div className='right-sidebar-heading'>
+<h2>News</h2>
+</div>
+{
+(  <Cardcomponent content={news} />  )
+
+
+}
+
+  </section>
+</div>
+
+<div className='right-sidebar-contents'>
+  <section className='right-sidebar-content'>
+    <div className='right-sidebar-heading'>
+<h2>Helps</h2>
+</div>
+{
+(  <Cardcomponent content={help} />  )
+
+
+}
+
+  </section>
+</div>
+</div>
 </>
     );
 }

@@ -2,6 +2,12 @@
   .headerContent input {
     width: 15rem;
   }
+  .right-sidebar{
+    display: none;
+  }
+  .content{
+    width: 80vw;
+}
 }
 
 @media only screen and (max-width: 700px) {

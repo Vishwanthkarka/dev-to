@@ -1,0 +1,29 @@
+.content-list{
+    padding: 0.9rem;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid var(--main-1);
+.content-heading{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.content-subheading{
+    font-size: 0.8rem;
+    color: var(--main-7);
+    font-weight: 300;
+    padding: 0.3rem;
+   text-transform: capitalize;
+
+}
+}
+.content-list:hover{
+    background-color: white;
+}
+.new-tag{
+    font-size: 0.9rem;
+    background-color: var( --yellow);
+    color: var(--dark-yellow);
+    border-radius: var(--radius);
+    padding: 0.4rem;
+    width: 2.9rem;
+}
