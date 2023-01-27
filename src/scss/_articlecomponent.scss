@@ -73,6 +73,7 @@ border-top-right-radius: var(--radius);
 }
 .list-reaction{
     display: flex;
+    justify-content:space-between;
 .reactions{
     display: flex;
     cursor: pointer;
@@ -88,4 +89,25 @@ border-top-right-radius: var(--radius);
 }
 .p-title:hover{
     color: var(--main-theme-darker);
+}
+.article-right{
+  display: flex;
+ justify-content: center;
+}
+.article-bar{
+    display: flex;
+    gap:0.7rem;
+    align-items: center;
+}
+.article-read{
+    font-size: small;
+}
+.article-right{
+    margin-left: auto;
+    display: flex;
+    gap:0.7rem;
+    align-items: center;
+}
+.article-mark{
+    margin-right:1rem ;
 }
