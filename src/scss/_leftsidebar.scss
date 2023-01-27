@@ -2,18 +2,9 @@
     width:240px;
     padding-left: 1rem;
     padding-top: 1rem;
-   .social-logos{
-margin: 0.9rem 0 0.9rem 0;
-   }
-   .social-logo {
-   color:var(--main-1);
-   display: inline-block;
-   padding: 0.5rem;
-   .social-logo svg{
-fill: red;
-   }
+ 
 
-   }
+   
    .heading{
     display: flex;
    justify-content: space-between;
@@ -91,3 +82,15 @@ fill: red;
         }
     }
 }
+
+.social-logos{
+    margin: 0.9rem 0 0.9rem 0;
+       }
+       .social-logo {
+       color:var(--main-1);
+       display: inline-block;
+       padding: 0.5rem;
+       .social-logo svg{
+    fill: red;
+       }
+    }

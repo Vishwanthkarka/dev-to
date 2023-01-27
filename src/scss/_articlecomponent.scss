@@ -55,6 +55,8 @@ border-top-right-radius: var(--radius);
     padding-left: 2.9rem;
 .p-tags{
     margin: 0.6rem 0.6rem 0.6rem 0;
+    display: flex;
+    flex-wrap: wrap;
 .p-tag{
     padding: 0.3rem;
     cursor: pointer;
@@ -80,6 +82,7 @@ border-top-right-radius: var(--radius);
    align-items: center;
     width: 9.8rem;
     padding: 0.2rem;
+    align-items: center;
 
 }
 .reactions:hover{
